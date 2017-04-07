@@ -1,5 +1,5 @@
 import React from 'react';
-import {postComment} from '../server';
+
 
 export default class CommentEntry extends React.Component {
   constructor(props) {

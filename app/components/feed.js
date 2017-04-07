@@ -48,7 +48,7 @@ export default class Feed extends React.Component {
 				<StatusUpdateEntry onPost={(postContents) => this.onPost(postContents)} />
 				{this.state.contents.map((feedItem) => {
 					return (
-						<FeedItem key={feedItem._id} data={feedItem} onPost={(commentText) => this.handleCommentPost(commentText)}/>
+						<FeedItem key={feedItem._id} data={feedItem}  />
 					)
 				})}
 			</div>
